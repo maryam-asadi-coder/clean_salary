@@ -28,4 +28,4 @@ int(df['Rating'][5891])
 
 df['Rating'].apply(int)
 
-df['Salary Estimate'].apply(lambda x: x.replace('(Glassdoor est.)' ,'').replace('$','') #You can use the replace function to clean any additional information, and you can also apply the function to all 5891 data using the apply function. #salary_estimate
+df['Salary Estimate'].apply(lambda x: x.replace('(Glassdoor est.)' ,'').replace('$','') #You can use the replace function to clean any additional information, and you can also apply the function to all 5891 data using the apply function. #salary_estimate #salary-calculator
